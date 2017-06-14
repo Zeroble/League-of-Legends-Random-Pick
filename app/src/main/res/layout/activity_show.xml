@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.d3v3lop3r.sup3r.m.i.lolrandomchampiontrollpick.Button">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textColor="#000000"
+    android:text="앱 정보"
+    android:textStyle="bold"
+    android:textSize="50dp"
+    android:layout_marginTop="20dp" />
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text= "제작자 : "-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="35dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Local"-->
+            <!--android:textColor="#587cff"-->
+            <!--android:textSize="35dp"/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp">-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="제작팀 : "-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="35dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Team Vector"-->
+            <!--android:textColor="#587cff"-->
+            <!--android:textSize="35dp"/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text= "제작 시간 : "-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="35dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="약 하루"-->
+            <!--android:textColor="#587cff"-->
+            <!--android:textSize="35dp"/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text= "아이디어 : "-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="35dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="송재혁"-->
+            <!--android:textColor="#587cff"-->
+            <!--android:textSize="35dp"/>-->
+    <!--</LinearLayout>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정보"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:id="@+id/showInfo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\&#63;"
+        android:textColor="#587cff"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/showInfoPerson"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Let's show!"
+        android:textSize="40dp"
+        android:onClick="showInfoButton"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/logo"
+        android:onClick="logo"
+        android:layout_gravity="end|bottom"
+        />
+
+</LinearLayout>
